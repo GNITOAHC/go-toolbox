@@ -1,0 +1,7 @@
+ENV=testenv
+ENV_QUOTES="env_quotes"
+ENV_SPACE = env_space
+ENV_QUOTES_SPACE = "env_quotes_space"
+A = a
+B = b
+ENV_VAR = env_${A}_${B}
